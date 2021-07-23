@@ -1,8 +1,10 @@
-# webpack-simple
+# Project Taken from [gitlab](https://github.com/vuejs-templates/webpack-simple)
+
+## webpack-simple
 
 > A Vue.js project
 
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
