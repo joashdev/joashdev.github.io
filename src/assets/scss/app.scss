@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@import './variables';
+
+// Utilities
+@import "~bulma/sass/utilities/_all.sass";
+
+$danger: $red;
+$family-secondary: $family-abril;
+$input-placeholder-color: $custom-placeholder-color;
+
+// Base
+@import "~bulma/sass/base/_all.sass";
+
+// Components
+@import "~bulma/sass/components/_all.sass";
+
+// Elements
+@import "~bulma/sass/elements/_all.sass";
+
+// Helpers
+@import "~bulma/sass/helpers/_all.sass";
+
+// Form
+@import "~bulma/sass/form/_all.sass";
+
+// Grid
+@import "~bulma/sass/grid/_all.sass";
+
+// Layout
+@import "~bulma/sass/layout/_all.sass";
+
+
+@keyframes transitionIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+* {
+  scroll-behavior: smooth;
+  
+  // fix horizontal scrolling
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+.columns,
+.columns:last-child {
+    margin: 0;
+}
+body{
+  animation: transitionIn 0.3s ease;
+
+}
+
+.hover-under {
+  // display: inline-block;
+  position: relative;
+  color: red;
+}
+
+.hover-under:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-under:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

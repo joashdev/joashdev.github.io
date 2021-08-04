@@ -1,5 +1,5 @@
 <template>
-  <h1 v-if="sampleProp && sampleProp.length">
+  <h1 class="is-info" v-if="sampleProp && sampleProp.length">
     {{ sampleProp }}
   </h1>
 </template>
