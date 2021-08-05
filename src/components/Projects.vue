@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="section">
     <h1 class="is-family-monospace is-white is-size-1">#PROJECTS</h1>
-    <div class="columns is-multiline is-flex is-justify-content-space-evenly">
+    <div class="columns is-multiline is-flex is-justify-content-center">
       <Card
       v-for="(work, index) in works"
       v-bind:key="work.id"

@@ -34,6 +34,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .column {
+    border: 1px lightgray solid;
   margin: 10px;
   text-align: center;
   -webkit-box-shadow: -7px 11px 25px -9px rgba(0, 0, 0, 1);

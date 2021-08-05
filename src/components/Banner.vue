@@ -1,5 +1,5 @@
 <template>
-  <section class="banner is-paddingless-horizontal">
+  <section class="banner is-paddingless-horizontal" id="home">
     <Navbar />
     <Hero />
   </section>

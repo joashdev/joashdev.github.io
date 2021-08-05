@@ -16,3 +16,4 @@ functions/*
 *.ntvs*
 *.njsproj
 *.sln
+/dist/

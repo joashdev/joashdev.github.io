@@ -3,7 +3,7 @@
     <nav class="navbar is-transparent is-fixed-top">
       <!-- nav bar left side -->
       <div class="navbar-brand ">
-        <a href="#" class="navbar-item is-family-secondary is-size-4">
+        <a href="#home" class="navbar-item is-family-secondary is-size-4">
           <img
             src="/src/assets/img/banner-logo.png"
             alt="kent joash zamudio logo"
@@ -58,14 +58,6 @@ export default {
     background-image: none;
   }
 }
-// .navbar-brand a img {
-//   max-height: 2rem;
-// }
-// .navbar-brand a {
-//   font-family: 'Abril Fatface';
-//   font-size: 1.5rem;
-//   // font-weight: bold;
-// }
 .navbar-brand a:hover {
   color: white;
 }
